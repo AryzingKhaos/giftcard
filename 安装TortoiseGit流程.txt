@@ -1,0 +1,18 @@
+下载toutoisegit 64位及其中文包
+http://www.ddooo.com/softdown/95292.htm
+
+安装toutoisegit 64位及其中文包（注意不要重启电脑）
+
+
+解决远程push报错问题
+http://blog.csdn.net/yidragon88xx/article/details/38946041#reply
+
+ 右键更新的Git项目，选择TortoiseGit -- Settings 在弹出的对话框中点击NetWork在右侧的区域配置SSH Client项为Git安装目录下git/usr/bin/ssh.exe文件，注意是Git的安装目录下的。
+【原文写的“bin/ssh.exe文件”不正确（可能是由于版本原因）】
+
+或者这篇
+http://blog.csdn.net/yym6789/article/details/53807640
+
+
+
+
