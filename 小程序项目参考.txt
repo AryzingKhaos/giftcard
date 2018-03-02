@@ -1,0 +1,13 @@
+知乎：如何入门小程序
+https://www.zhihu.com/question/50907897
+
+微信官方文档：小程序开发
+https://mp.weixin.qq.com/debug/wxadoc/dev/api/api-login.html?t=20161122
+
+github小程序开发资源汇总
+https://github.com/justjavac/awesome-wechat-weapp
+
+
+https://github.com/bibiqqqq/wxapp_starbucks
+仿星巴克的礼品卡开发
+

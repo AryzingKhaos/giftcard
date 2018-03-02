@@ -7,6 +7,36 @@ http://blog.csdn.net/beilinyu/article/details/53945438
 
 
 
+调用微信扫一扫能力，只需要：
+
+wx.scanCode({
+  success: (res) => {
+    console.log(res)
+  }
+})
+
+
+
+微信调用toast提示
+https://mp.weixin.qq.com/debug/wxadoc/dev/api/api-react.html#wxshowtoastobject
+wx.showToast({
+  title: '成功',
+  icon: 'success',
+  duration: 2000
+})
+
+
+
+微信支付文档（几乎没怎么看懂）
+https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=7_10&index=1
+
+
+
+
+
+
+
+
 
 
 
