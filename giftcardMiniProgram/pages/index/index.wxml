@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" class="banners" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{banner}}">
+      <swiper-item class="banner" >
+          <image src="{{item.image}}"  data-id="{{item.id}}" bindtap="bindViewTap" class="banner-image" width="100%" height="100%"/>
+          <text class="banner-title">{{item.title}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="giftcard-group">
+    <block wx:for="{{list}}" wx:for-index="id">
+      <text class="giftcard-group-title" wx:if="{{item.name}}" >{{item.name}}</text>
+        <view class='giftcard-item-box'>
+          <block wx:for="{{item.content}}" wx:for-index="id">
+            <navigator class="giftcard-item" url="../detail/detail?id={{item.id}}">
+              <view class="giftcard-img-box">
+                <image class="giftcard-img" mode="aspectFit" src="{{item.image}}" />
+              </view>
+              <view class="giftcard-text-box">
+                <text class="giftcard-text">{{item.name}}{{item.id}}</text>
+              </view>
+            </navigator>
+          </block>
+        </view>
+    </block>
+
+  </view>
+  
+</view>
