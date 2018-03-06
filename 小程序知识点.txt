@@ -4,9 +4,6 @@ http://blog.csdn.net/beilinyu/article/details/53945438
 
 
 
-
-
-
 调用微信扫一扫能力，只需要：
 
 wx.scanCode({
